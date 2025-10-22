@@ -1,3 +1,20 @@
+# Journals & CPS1985 Analysis
+This repository contains R code for:
+- Scatterplots & OLS regression for `Journals` dataset (AER package)
+- Quantile regression & kernel density estimation for `CPS1985` dataset (AER package)
+
+## Packages Required
+- AER
+- quantreg
+- KernSmooth
+
+## Data Sources
+- AER R package: `Journals`, `CPS1985`
+
+
+-----------
+
+
 data("Journals", package = "AER")
 dim(Journals)
 names(Journals)
